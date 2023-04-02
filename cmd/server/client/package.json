@@ -1,0 +1,17 @@
+{
+  "name": "my-typescript-project",
+  "version": "1.0.0",
+  "description": "A minimal TypeScript project",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:html": "node copyHtml.js",
+    "build": "npm run build:ts && npm run build:html"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.4"
+  }
+}

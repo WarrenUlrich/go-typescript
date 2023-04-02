@@ -1,0 +1,1 @@
+template project for a go/typescript backend/frontend
